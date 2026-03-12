@@ -23,6 +23,7 @@ composeBom = "2026.02.00"
 activityCompose = "1.12.4"
 navigationCompose = "2.9.7"
 foundationLayout = "1.10.3"
+uiText = "1.10.4"
 
 #Ktor
 ktor = "2.3.12"
@@ -74,6 +75,7 @@ androidx-compose-viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel-
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
 androidx-compose-navigation = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
 androidx-compose-foundation-layout = { group = "androidx.compose.foundation", name = "foundation-layout", version.ref = "foundationLayout" }
+androidx-compose-ui-text = { group = "androidx.compose.ui", name = "ui-text", version.ref = "uiText" }
 
 #Ktor
 ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
