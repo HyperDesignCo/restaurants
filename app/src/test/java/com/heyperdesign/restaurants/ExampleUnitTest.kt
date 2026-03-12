@@ -1,4 +1,4 @@
-package com.makamar.restaurants
+package com.heyperdesign.restaurants
 
 import org.junit.Test
 
