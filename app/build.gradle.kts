@@ -55,6 +55,7 @@ dependencies {
     implementation(libs.androidx.compose.viewmodel)
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.navigation)
+    implementation(libs.androidx.compose.ui.text)
 
     // Ktor
     implementation(libs.ktor.client.core)
