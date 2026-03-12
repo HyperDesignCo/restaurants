@@ -3,7 +3,7 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.kotlinx.serialization)
-    alias(libs.plugins.google.services)
+   // alias(libs.plugins.google.services)
     id("com.google.devtools.ksp")
 }
 
@@ -89,9 +89,9 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 
-    // Firebase
+ /*   // Firebase
     implementation(platform(libs.firebase.bom))
-    implementation(libs.google.firebase.config)
+    implementation(libs.google.firebase.config) */
 
     //Room
     ksp(libs.androidx.room.compiler)
