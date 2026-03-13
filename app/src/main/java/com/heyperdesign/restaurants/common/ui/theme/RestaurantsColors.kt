@@ -1,4 +1,4 @@
-package com.heyperdesign.restaurants.common.ui
+package com.heyperdesign.restaurants.common.ui.theme
 
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.graphics.Color
@@ -64,7 +64,7 @@ val textDark = TextColors(
 
 val RestaurantsColorsColorsLight = RestaurantsColors(
     secondary = Color(0xFF592F16),
-    primary = Color(0xFF1337EC),
+    primary = Color(0xFFFF5215),
     status = statusLight,
     text = textLight,
     background = backgroundLight
@@ -72,7 +72,7 @@ val RestaurantsColorsColorsLight = RestaurantsColors(
 
 val RestaurantsColorsColorsDark = RestaurantsColors(
     secondary = Color(0xFFC4632A),
-    primary = Color(0xFF1337EC),
+    primary = Color(0xFFFF6B3D),
     status = statusDark,
     text = textDark,
     background = backgroundDark,
