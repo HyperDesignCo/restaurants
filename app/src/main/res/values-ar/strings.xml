@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- General -->
+    <string name="unknown_error">حدث خطأ غير معروف</string>
+    <string name="something_wrong">حدث خطأ</string>
+    <string name="password_validation_message">كلمة المرور لازم تحتوي على حروف وأرقام وطولها لا يقل عن 8.</string>
+    <string name="phone_validation_message">من فضلك أدخل رقم هاتف صحيح.</string>
+    <string name="email_validation_message">البريد الإلكتروني يجب أن يكون من 8 إلى 50 حرف وبصيغة صحيحة.</string>
+    <string name="user_name_validation_message">الاسم يجب أن يكون من 3 إلى 50 حرف ويحتوي على حروف فقط بدون أرقام أو رموز.</string>
+    <string name="otp_validation_message">يجب أن يتكون الرمز من 4 أرقام.</string>
+    <string name="address_first_second_phone_must_be_different">يجب أن يكون الهاتف الأول والثاني مختلفين</string>
+    <string name="confirmation_password_does_not_match">كلمة مرور التأكيد لا تتطابق</string>
     <!-- Login -->
     <string name="password">كلمة المرور</string>
 </resources>

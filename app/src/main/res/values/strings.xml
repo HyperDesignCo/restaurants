@@ -1,5 +1,15 @@
 <resources>
-    <string name="app_name">restaurants</string>
+    <string name="app_name" translatable="false">restaurants</string>
+    <!-- General -->
+    <string name="unknown_error">Unknown error occurred</string>
+    <string name="something_wrong">Something went wrong</string>
+    <string name="password_validation_message">Password must include letters and numbers and be at least 8 characters.</string>
+    <string name="phone_validation_message">Please enter a valid phone number.</string>
+    <string name="email_validation_message">Email must be between 8 and 50 characters and in a valid format.</string>
+    <string name="user_name_validation_message">Name must be 3–50 letters and contain only alphabetic characters.</string>
+    <string name="otp_validation_message">Code must be 4 digits.</string>
+    <string name="address_first_second_phone_must_be_different">First and second phone must be different</string>
+    <string name="confirmation_password_does_not_match">Confirmation password does not match</string>
     <!-- Login -->
     <string name="password">Password</string>
 </resources>
