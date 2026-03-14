@@ -26,5 +26,8 @@
     <string name="tell_me_more">Tell me more!</string>
     <string name="continue_button">Continue</string>
     <!-- Login -->
+    <string name="login">Log in</string>
     <string name="password">Password</string>
+    <!-- Signup -->
+    <string name="signup">Sign up</string>
 </resources>

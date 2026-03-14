@@ -26,5 +26,8 @@
     <string name="on_boarding_body_sixth">انضم كعضو لتتمكن من الطلب والدفع عبر التطبيق، والحصول على عروض شهية وجمع النقاط على مشترياتك.</string>
     <string name="continue_button">تابع</string>
     <!-- Login -->
+    <string name="login">تسجيل الدخول</string>
     <string name="password">كلمة المرور</string>
+    <!-- Signup -->
+    <string name="signup">إنشاء حساب</string>
 </resources>
