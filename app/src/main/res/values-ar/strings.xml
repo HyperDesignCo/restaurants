@@ -21,6 +21,7 @@
     <string name="on_boarding_body_fourth">لتقديم إعلانات ملائمة لك، نستخدم تتبعاً عبر التطبيقات والمواقع الأخرى — بإذنك فقط بالطبع. يمكنك إلغاء هذا التتبع في أي وقت من إعدادات الخصوصية في هاتفك.</string>
     <string name="on_boarding_title_fifth">سجّل دخولك إلى حسابك</string>
     <string name="on_boarding_body_fifth">سجّل دخولك لتتمكن من الطلب واستخدام العروض المخصصة والوصول إلى بياناتك الشخصية.</string>
+    <string name="tell_me_more">أخبرني أكثر!</string>
     <!-- Login -->
     <string name="password">كلمة المرور</string>
 </resources>
