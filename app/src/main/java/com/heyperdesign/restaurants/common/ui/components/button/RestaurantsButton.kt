@@ -31,7 +31,6 @@ fun RestaurantsButton(
 ) {
     Button(
         modifier = modifier
-            .fillMaxWidth()
             .clip(shape),
         shape = shape,
         colors = ButtonColors(
