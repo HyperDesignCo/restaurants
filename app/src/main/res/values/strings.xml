@@ -21,7 +21,10 @@
     <string name="on_boarding_body_fourth">To deliver relevant ads to you, we use tracking across other apps and websites — with your permission only, of course. You may opt out of this tracking at any time in your iPhone privacy settings.</string>
     <string name="on_boarding_title_fifth">Log in to your account</string>
     <string name="on_boarding_body_fifth">Log in to order, use personalised deals and access your personal details.</string>
+    <string name="on_boarding_title_sixth">Good things ahead</string>
+    <string name="on_boarding_body_sixth">Become a member to order and pay in the app, receive tasty deals and collect points on your purchases.</string>
     <string name="tell_me_more">Tell me more!</string>
+    <string name="continue_button">Continue</string>
     <!-- Login -->
     <string name="password">Password</string>
 </resources>

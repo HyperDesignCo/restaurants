@@ -22,6 +22,9 @@
     <string name="on_boarding_title_fifth">سجّل دخولك إلى حسابك</string>
     <string name="on_boarding_body_fifth">سجّل دخولك لتتمكن من الطلب واستخدام العروض المخصصة والوصول إلى بياناتك الشخصية.</string>
     <string name="tell_me_more">أخبرني أكثر!</string>
+    <string name="on_boarding_title_sixth">أشياء رائعة في انتظارك</string>
+    <string name="on_boarding_body_sixth">انضم كعضو لتتمكن من الطلب والدفع عبر التطبيق، والحصول على عروض شهية وجمع النقاط على مشترياتك.</string>
+    <string name="continue_button">تابع</string>
     <!-- Login -->
     <string name="password">كلمة المرور</string>
 </resources>
