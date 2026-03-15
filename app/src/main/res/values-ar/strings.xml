@@ -27,7 +27,11 @@
     <string name="continue_button">تابع</string>
     <!-- Login -->
     <string name="login">تسجيل الدخول</string>
+    <string name="login_to_the_good_stuff">سجّل دخولك للاستمتاع بالأفضل</string>
+    <string name="phone">رقم الهاتف</string>
     <string name="password">كلمة المرور</string>
+    <string name="forget_your_password">نسيت كلمة المرور؟</string>
+    <string name="not_a_member_yet">لست عضواً بعد؟</string>
     <!-- Signup -->
     <string name="signup">إنشاء حساب</string>
 </resources>
