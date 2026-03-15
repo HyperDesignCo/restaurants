@@ -42,10 +42,11 @@ val appModule = module {
     }
     single<DataStore<Preferences>> {
         PreferenceDataStoreFactory.create {
-            get<Context>().preferencesDataStoreFile("delivary_user_datastore")
+            get<Context>().preferencesDataStoreFile("restaurants_datastore")
         }
     }
     singleOf(::LocalDataSourceProvider) bind ILocalDataSourceProvider::class
     single<ApiService> { ApiService(provideHttpClient(get())) }
     singleOf(::RemoteDataSourceProvider) bind IRemoteDataSourceProvider::class
+    includes(featuresModule)
 }

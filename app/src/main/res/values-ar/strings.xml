@@ -10,6 +10,24 @@
     <string name="otp_validation_message">يجب أن يتكون الرمز من 4 أرقام.</string>
     <string name="address_first_second_phone_must_be_different">يجب أن يكون الهاتف الأول والثاني مختلفين</string>
     <string name="confirmation_password_does_not_match">كلمة مرور التأكيد لا تتطابق</string>
+    <!-- OnBoarding -->
+    <string name="on_boarding_title_first">يسعدنا لقاؤك!</string>
+    <string name="on_boarding_body_first">شكراً لاختيارك تطبيق Hyper في مصر. يسعدنا أن نُريك ما تقدمه مطاعمنا!</string>
+    <string name="on_boarding_title_second">موقعك مهم!</string>
+    <string name="on_boarding_body_second">نحتاج إلى الوصول إلى موقع جهازك حتى نتمكن من عرض أقرب المطاعم إليك والعروض الأكثر ملاءمةً لك.</string>
+    <string name="on_boarding_title_third">لا تفوّت أي عرض مميز!</string>
+    <string name="on_boarding_body_third">نودّ إرسال إشعارات إليك بين الحين والآخر لإعلامك بالعروض الجديدة فور توفرها.</string>
+    <string name="on_boarding_title_fourth">إعلانات مخصصة</string>
+    <string name="on_boarding_body_fourth">لتقديم إعلانات ملائمة لك، نستخدم تتبعاً عبر التطبيقات والمواقع الأخرى — بإذنك فقط بالطبع. يمكنك إلغاء هذا التتبع في أي وقت من إعدادات الخصوصية في هاتفك.</string>
+    <string name="on_boarding_title_fifth">سجّل دخولك إلى حسابك</string>
+    <string name="on_boarding_body_fifth">سجّل دخولك لتتمكن من الطلب واستخدام العروض المخصصة والوصول إلى بياناتك الشخصية.</string>
+    <string name="tell_me_more">أخبرني أكثر!</string>
+    <string name="on_boarding_title_sixth">أشياء رائعة في انتظارك</string>
+    <string name="on_boarding_body_sixth">انضم كعضو لتتمكن من الطلب والدفع عبر التطبيق، والحصول على عروض شهية وجمع النقاط على مشترياتك.</string>
+    <string name="continue_button">تابع</string>
     <!-- Login -->
+    <string name="login">تسجيل الدخول</string>
     <string name="password">كلمة المرور</string>
+    <!-- Signup -->
+    <string name="signup">إنشاء حساب</string>
 </resources>

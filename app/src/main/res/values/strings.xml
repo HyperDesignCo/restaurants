@@ -10,6 +10,24 @@
     <string name="otp_validation_message">Code must be 4 digits.</string>
     <string name="address_first_second_phone_must_be_different">First and second phone must be different</string>
     <string name="confirmation_password_does_not_match">Confirmation password does not match</string>
+    <!-- OnBoarding -->
+    <string name="on_boarding_title_first">Nice to meet you!</string>
+    <string name="on_boarding_body_first">Thanks for choosing to use the Hyper App in Egypt. We\'re really excited to show you what we have in our restaurants!</string>
+    <string name="on_boarding_title_second">Location is key!</string>
+    <string name="on_boarding_body_second">We need to access your device\'s location so that we can show you the nearest restaurants and the offers that are most relevant to you.</string>
+    <string name="on_boarding_title_third">Never miss a great deal!</string>
+    <string name="on_boarding_body_third">We would like to send you a notification every now and then to let you know when new offers are available.</string>
+    <string name="on_boarding_title_fourth">Tailored ads</string>
+    <string name="on_boarding_body_fourth">To deliver relevant ads to you, we use tracking across other apps and websites — with your permission only, of course. You may opt out of this tracking at any time in your iPhone privacy settings.</string>
+    <string name="on_boarding_title_fifth">Log in to your account</string>
+    <string name="on_boarding_body_fifth">Log in to order, use personalised deals and access your personal details.</string>
+    <string name="on_boarding_title_sixth">Good things ahead</string>
+    <string name="on_boarding_body_sixth">Become a member to order and pay in the app, receive tasty deals and collect points on your purchases.</string>
+    <string name="tell_me_more">Tell me more!</string>
+    <string name="continue_button">Continue</string>
     <!-- Login -->
+    <string name="login">Log in</string>
     <string name="password">Password</string>
+    <!-- Signup -->
+    <string name="signup">Sign up</string>
 </resources>

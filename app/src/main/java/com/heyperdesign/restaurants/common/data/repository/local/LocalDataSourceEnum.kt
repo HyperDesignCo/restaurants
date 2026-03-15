@@ -5,6 +5,7 @@ import com.heyperdesign.restaurants.common.domain.local.ILocalDataSourceEnum
 enum class LocalDataSourceEnum(override val keyValue: String) : ILocalDataSourceEnum {
     ACCESS_TOKEN("access_token"),
     USER("user"),
+    IS_ONBOARDING("is_onboarding"),
     REMEMBER_ME("remember_me"),
     IS_VERIFIED("is_verified"),
     SENDER_ADDRESS("sender_address"),
