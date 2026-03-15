@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -40,6 +41,7 @@ private fun OnBoardingContent(state: OnBoardingContract.State, onAction: (OnBoar
         modifier = Modifier
             .fillMaxSize()
             .background(color = RestaurantsTheme.colors.background.surfaceHigh)
+            .statusBarsPadding()
             .padding(horizontal = 16.dp, vertical = 30.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(16.dp)
@@ -50,6 +52,7 @@ private fun OnBoardingContent(state: OnBoardingContract.State, onAction: (OnBoar
             ),
             contentDescription = null
         )
+        Spacer(modifier = Modifier.weight(0.0741f))
         Text(
             modifier = Modifier.fillMaxWidth(),
             text = stringResource(state.currentPage.title),
@@ -64,6 +67,7 @@ private fun OnBoardingContent(state: OnBoardingContract.State, onAction: (OnBoar
             style = RestaurantsTheme.typography.body.extraLarge,
             textAlign = TextAlign.Start
         )
+        Spacer(modifier = Modifier.weight(0.1289f))
         if (state.isLastPage.not())
             RestaurantsButtonPrimary(
                 modifier = Modifier.fillMaxWidth(),
@@ -79,12 +83,12 @@ private fun OnBoardingContent(state: OnBoardingContract.State, onAction: (OnBoar
                 RestaurantsButtonSecondary(
                     modifier = Modifier.weight(1f),
                     label = stringResource(R.string.login),
-                    onClick = { onAction(OnBoardingContract.Action.OnNextClicked) }
+                    onClick = { onAction(OnBoardingContract.Action.OnLoginClicked) }
                 )
                 RestaurantsButtonPrimary(
                     modifier = Modifier.weight(1f),
                     label = stringResource(R.string.signup),
-                    onClick = { onAction(OnBoardingContract.Action.OnNextClicked) }
+                    onClick = { onAction(OnBoardingContract.Action.OnSignupClicked) }
                 )
             }
         Spacer(modifier = Modifier.weight(0.303f))

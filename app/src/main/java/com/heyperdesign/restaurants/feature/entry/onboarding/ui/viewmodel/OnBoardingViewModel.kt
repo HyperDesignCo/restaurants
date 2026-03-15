@@ -1,14 +1,25 @@
 package com.heyperdesign.restaurants.feature.entry.onboarding.ui.viewmodel
 
+import androidx.lifecycle.viewModelScope
 import com.heyperdesign.restaurants.common.ui.viewmodel.BaseViewModel
+import com.heyperdesign.restaurants.feature.entry.onboarding.domain.usecase.SaveOnBoardingUC
+import kotlinx.coroutines.launch
 
-class OnBoardingViewModel :
+class OnBoardingViewModel(private val onBoarding: SaveOnBoardingUC) :
     BaseViewModel<OnBoardingContract.State, OnBoardingContract.Action>(OnBoardingContract.State()) {
     override fun onActionTrigger(action: OnBoardingContract.Action) {
         when (action) {
-            is OnBoardingContract.Action.OnLoginClicked -> {}
+            is OnBoardingContract.Action.OnLoginClicked -> onLoginClicked()
             is OnBoardingContract.Action.OnNextClicked -> onNextClicked()
-            is OnBoardingContract.Action.OnSignupClicked -> {}
+            is OnBoardingContract.Action.OnSignupClicked -> onSignupClicked()
+        }
+    }
+
+    private fun onLoginClicked() {
+        viewModelScope.launch {
+            onBoarding.invoke(Unit).collectResource(onSuccess = { // Navigate to login
+            //
+            })
         }
     }
 
@@ -36,4 +47,13 @@ class OnBoardingViewModel :
             }
         }
     }
+    private fun onSignupClicked() {
+        viewModelScope.launch {
+            onBoarding.invoke(Unit).collectResource(onSuccess = { // Navigate to signup
+                //
+            })
+        }
+    }
 }
+
+
