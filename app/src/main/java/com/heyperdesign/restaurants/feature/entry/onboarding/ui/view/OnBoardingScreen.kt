@@ -25,12 +25,12 @@ import com.heyperdesign.restaurants.common.ui.components.button.RestaurantsButto
 import com.heyperdesign.restaurants.common.ui.preview.PreviewAllVariants
 import com.heyperdesign.restaurants.common.ui.theme.RestaurantsTheme
 import com.heyperdesign.restaurants.feature.entry.onboarding.ui.viewmodel.OnBoardingContract
-import com.heyperdesign.restaurants.feature.entry.onboarding.ui.viewmodel.OnBoardingViewModel
+import com.heyperdesign.restaurants.feature.entry.onboarding.ui.viewmodel.OnBoardingVM
 import com.hyperdesin.restaurants.R
 import org.koin.androidx.compose.koinViewModel
 
 @Composable
-fun OnBoardingScreen(viewmodel: OnBoardingViewModel = koinViewModel()) {
+fun OnBoardingScreen(viewmodel: OnBoardingVM = koinViewModel()) {
     val state by viewmodel.state.collectAsStateWithLifecycle()
     OnBoardingContent(state = state, onAction = viewmodel::onActionTrigger)
 }
