@@ -34,6 +34,7 @@
     <string name="not_a_member_yet">لست عضواً بعد؟</string>
     <string name="enter_phone">ادخل الهاتف</string>
     <string name="enter_password">ادخل كلمة المرور</string>
+    <string name="welcome_back">مرحباً بعودتك</string>
     <!-- Signup -->
     <string name="signup">إنشاء حساب</string>
 </resources>
