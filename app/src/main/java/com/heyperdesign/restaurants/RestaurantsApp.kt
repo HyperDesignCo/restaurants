@@ -28,6 +28,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
 import com.heyperdesign.restaurants.common.ui.components.dialog.RestaurantsLoadingDialog
+import com.heyperdesign.restaurants.common.ui.components.snackbar.RestaurantsSnackBarHost
 import com.heyperdesign.restaurants.common.ui.components.snackbar.showSnackbar
 import com.heyperdesign.restaurants.common.ui.eventcontroller.IEventController
 import com.heyperdesign.restaurants.common.ui.extensions.ObserveAsEvents
@@ -76,7 +77,7 @@ fun RestaurantsApp(
                 .fillMaxSize()
                 .navigationBarsPadding(),
             snackbarHost = {
-
+                RestaurantsSnackBarHost(SnackbarHostState = snackbarHostState)
             },
             bottomBar = {
 
