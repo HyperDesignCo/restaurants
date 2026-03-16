@@ -6,8 +6,10 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import com.heyperdesign.restaurants.common.ui.components.textfield.RestaurantsTextField
+import com.heyperdesign.restaurants.common.ui.components.textfield.RestaurantsTextFieldDefaults
 import com.heyperdesign.restaurants.common.ui.preview.PreviewAllVariants
 import com.heyperdesign.restaurants.common.ui.theme.RestaurantsTheme
 
@@ -16,8 +18,10 @@ fun AuthenticationField(
     label: String,
     hint: String,
     value: String,
-    onValueChange: (String) -> Unit,
+    supportingText: String,
     modifier: Modifier = Modifier,
+    isNumber: Boolean = false,
+    onValueChange: (String) -> Unit
 ) {
     Column(
         modifier = modifier.fillMaxWidth(),
@@ -35,7 +39,11 @@ fun AuthenticationField(
             onValueChange = {
                 onValueChange(it)
             },
-            placeholder = hint
+            supportingText = supportingText,
+            placeholder = hint,
+            keyboardOptions = if (isNumber) RestaurantsTextFieldDefaults.keyboardOptions.copy(
+                keyboardType = KeyboardType.Number
+            ) else RestaurantsTextFieldDefaults.keyboardOptions
         )
     }
 }
@@ -47,6 +55,7 @@ private fun AuthenticationFieldPreview() = RestaurantsTheme {
         label = "Phone",
         hint = "Enter Phone",
         value = "",
-        onValueChange = {}
+        onValueChange = {},
+        supportingText = ""
     )
 }
