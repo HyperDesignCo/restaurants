@@ -28,6 +28,13 @@
     <!-- Login -->
     <string name="login">Log in</string>
     <string name="password">Password</string>
+    <string name="login_to_the_good_stuff">Log in to the Good stuff</string>
+    <string name="phone">Phone</string>
+    <string name="forget_your_password">Forget your password?</string>
+    <string name="not_a_member_yet">Not a member yet?</string>
+    <string name="enter_phone">Enter Phone</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="welcome_back">Welcome back</string>
     <!-- Signup -->
     <string name="signup">Sign up</string>
 </resources>

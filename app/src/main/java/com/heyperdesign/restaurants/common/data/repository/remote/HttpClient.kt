@@ -36,7 +36,7 @@ fun provideHttpClient(json: Json) = HttpClient(Android) {
         socketTimeoutMillis = 20_000
     }
     defaultRequest {
-        url("")
+        url("https://design5.hyper-restaurant.com/api/Design/user")
         contentType(ContentType.Application.Json)
     }
     HttpResponseValidator {
