@@ -1,11 +1,12 @@
 package com.heyperdesign.restaurants.feature.entry.onboarding.ui.viewmodel
 
 import androidx.lifecycle.viewModelScope
+import com.heyperdesign.restaurants.common.ui.navigation.IEntryGraph
 import com.heyperdesign.restaurants.common.ui.viewmodel.BaseViewModel
 import com.heyperdesign.restaurants.feature.entry.onboarding.domain.usecase.SaveOnBoardingUC
 import kotlinx.coroutines.launch
 
-class OnBoardingViewModel(private val onBoarding: SaveOnBoardingUC) :
+class OnBoardingVM(private val onBoarding: SaveOnBoardingUC) :
     BaseViewModel<OnBoardingContract.State, OnBoardingContract.Action>(OnBoardingContract.State()) {
     override fun onActionTrigger(action: OnBoardingContract.Action) {
         when (action) {
@@ -17,8 +18,12 @@ class OnBoardingViewModel(private val onBoarding: SaveOnBoardingUC) :
 
     private fun onLoginClicked() {
         viewModelScope.launch {
-            onBoarding.invoke(Unit).collectResource(onSuccess = { // Navigate to login
-            //
+            onBoarding.invoke(Unit).collectResource(onSuccess = {
+                fireNavigate(destination = IEntryGraph.Login, {
+                    popUpTo(IEntryGraph.RootGraph) {
+                        inclusive = true
+                    }
+                })
             })
         }
     }
@@ -47,6 +52,7 @@ class OnBoardingViewModel(private val onBoarding: SaveOnBoardingUC) :
             }
         }
     }
+
     private fun onSignupClicked() {
         viewModelScope.launch {
             onBoarding.invoke(Unit).collectResource(onSuccess = { // Navigate to signup
