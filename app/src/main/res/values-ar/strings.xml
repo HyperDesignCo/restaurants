@@ -32,6 +32,8 @@
     <string name="password">كلمة المرور</string>
     <string name="forget_your_password">نسيت كلمة المرور؟</string>
     <string name="not_a_member_yet">لست عضواً بعد؟</string>
+    <string name="enter_phone">ادخل الهاتف</string>
+    <string name="enter_password">ادخل كلمة المرور</string>
     <!-- Signup -->
     <string name="signup">إنشاء حساب</string>
 </resources>

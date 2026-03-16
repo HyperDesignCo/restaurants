@@ -32,6 +32,8 @@
     <string name="phone">Phone</string>
     <string name="forget_your_password">Forget your password?</string>
     <string name="not_a_member_yet">Not a member yet?</string>
+    <string name="enter_phone">Enter Phone</string>
+    <string name="enter_password">Enter Password</string>
     <!-- Signup -->
     <string name="signup">Sign up</string>
 </resources>
