@@ -37,4 +37,12 @@
     <string name="welcome_back">مرحباً بعودتك</string>
     <!-- Signup -->
     <string name="signup">إنشاء حساب</string>
+    <string name="create_your_account">إنشاء حساب</string>
+    <string name="name">الاسم</string>
+    <string name="please_enter_your_name">يرجى إدخال اسمك</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="please_enter_your_email">يرجى إدخال بريدك الإلكتروني</string>
+    <string name="please_enter_your_phone">يرجى إدخال رقم هاتفك</string>
+    <string name="please_enter_your_password">يرجى إدخال كلمة المرور</string>
+    <string name="already_has_an_account">هل لديك حساب بالفعل؟</string>
 </resources>
